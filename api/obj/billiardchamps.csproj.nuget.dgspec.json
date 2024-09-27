@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.net projects\\billiardchamps\\billiardchamps.csproj": {}
+    "C:\\.net projects\\billiardchamps\\api\\billiardchamps.csproj": {}
   },
   "projects": {
-    "C:\\.net projects\\billiardchamps\\billiardchamps.csproj": {
+    "C:\\.net projects\\billiardchamps\\api\\billiardchamps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.net projects\\billiardchamps\\billiardchamps.csproj",
+        "projectUniqueName": "C:\\.net projects\\billiardchamps\\api\\billiardchamps.csproj",
         "projectName": "billiardchamps",
-        "projectPath": "C:\\.net projects\\billiardchamps\\billiardchamps.csproj",
+        "projectPath": "C:\\.net projects\\billiardchamps\\api\\billiardchamps.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\.net projects\\billiardchamps\\obj\\",
+        "outputPath": "C:\\.net projects\\billiardchamps\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

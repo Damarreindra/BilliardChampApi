@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("billiardchamps")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7083e5dfb95ba723a472338f65a01a98d977352")]
 [assembly: System.Reflection.AssemblyProductAttribute("billiardchamps")]
 [assembly: System.Reflection.AssemblyTitleAttribute("billiardchamps")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

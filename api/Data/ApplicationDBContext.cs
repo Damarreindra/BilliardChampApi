@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using api.Models;
 using billiardchamps.Model;
 using billiardchamps.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -43,6 +44,19 @@ namespace billiardchamps.Data
                 .HasOne(mp => mp.Player)
                 .WithMany(p => p.MatchPlayers)
                 .HasForeignKey(mp => mp.PlayerId);
+                
+            List<IdentityRole> roles = new List<IdentityRole>
+            {
+                new IdentityRole
+                {
+                    Name = "Admin",
+                    NormalizedName = "ADMIN",
+                    ConcurrencyStamp = Guid.NewGuid().ToString()
+                },
+               
+            };
+
+            modelBuilder.Entity<IdentityRole>().HasData(roles);
         }
 
     }
